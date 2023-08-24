@@ -1,7 +1,7 @@
-module github.com/stefma/hugo-fresh/docs
+module github.com/mingshi2807/hugo-fresh/docs
 
 go 1.15
 
-replace github.com/StefMa/hugo-fresh => ../
+replace github.com/mingshi2807/hugo-fresh => ../
 
-require github.com/StefMa/hugo-fresh v1.0.0 // indirect
+require github.com/mingshi2807/hugo-fresh v1.0.0 // indirect
