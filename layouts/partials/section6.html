@@ -1,10 +1,10 @@
-{{- $section6   := .Site.Params.section3 }}
+{{- $section6   := .Site.Params.$section6 }}
 {{- $title      := index $section6 "title" }}
 {{- $subtitle   := index $section6 "subtitle" }}
 {{- $image      := index $section6 "image" }}
 {{- $buttonText := index $section6 "buttontext" }}
 {{- $buttonLink := index $section6 "buttonlink" }}
-<section class="section section-feature-grey is-medium" id="section3">
+<section class="section section-feature-grey is-medium" id="$section6">
   <div class="container">
     <div class="columns">
       <div class="column is-10 is-offset-1">
